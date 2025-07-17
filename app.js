@@ -20,6 +20,7 @@ const db = mysql.createConnection({
     database: 'c237_24013373'
 });
 
+// Connect to database
 db.connect((err) => {
     if (err) {
         throw err;
